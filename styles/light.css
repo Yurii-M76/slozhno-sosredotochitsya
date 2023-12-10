@@ -38,10 +38,8 @@
     text-shadow: 2px 2px 0 var(--main-title-background-color);
   }
 }
-
 @media (prefers-color-scheme: light) {
   .page {
-    /* Дублируем переменные светлой темы */    
     --main-text-color: #353430;
     --main-background-color: #FFF1F7;
     --main-header-title-color: #FFC2E6;
@@ -49,7 +47,6 @@
     --main-nav-text-color: #353430;
     --main-title-color: #353430;
     --main-title-background-color: #FF8DCB;
-
     background-image: url("../images/cover-image-light.png");
   }
 
